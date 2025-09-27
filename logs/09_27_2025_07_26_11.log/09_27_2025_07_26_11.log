@@ -1,0 +1,9 @@
+[2025-09-27 07:26:31,386] 15 root - INFO - Initiate data ingestion
+[2025-09-27 07:26:47,542] 54 root - INFO - MongoDB connection closed.
+[2025-09-27 07:26:48,884] 74 root - INFO - performed train test split
+[2025-09-27 07:26:48,884] 75 root - INFO - Exited split data
+[2025-09-27 07:26:48,885] 78 root - INFO - exporting train test file path
+[2025-09-27 07:26:48,885] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-09-27 07:26:48,886] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-09-27 07:26:48,886] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-09-27 07:26:50,164] 89 root - INFO - exported train test files
