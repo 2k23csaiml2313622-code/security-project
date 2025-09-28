@@ -1,5 +1,5 @@
 columns:
-  ID: int64
+  id: int64
   NumDots: int64
   SubdomainLevel: int64
   PathLevel: int64
@@ -19,6 +19,7 @@ columns:
   IpAddress: int64
   DomainInSubdomains: int64
   DomainInPaths: int64
+  HttpsInHostname: int64
   HostnameLength: int64
   PathLength: int64
   QueryLength: int64

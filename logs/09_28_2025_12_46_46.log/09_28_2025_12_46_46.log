@@ -1,0 +1,15 @@
+[2025-09-28 12:46:51,209] 16 root - INFO - Initiate data ingestion
+[2025-09-28 12:47:02,694] 54 root - INFO - MongoDB connection closed.
+[2025-09-28 12:47:04,091] 74 root - INFO - performed train test split
+[2025-09-28 12:47:04,091] 75 root - INFO - Exited split data
+[2025-09-28 12:47:04,091] 78 root - INFO - exporting train test file path
+[2025-09-28 12:47:04,091] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-09-28 12:47:04,091] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-09-28 12:47:04,091] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-09-28 12:47:05,457] 89 root - INFO - exported train test files
+[2025-09-28 12:47:05,457] 18 root - INFO - data initiation completed
+[2025-09-28 12:47:05,483] 22 root - INFO - initiating the data validation
+[2025-09-28 12:47:05,741] 40 root - INFO - Required number of columns: 50
+[2025-09-28 12:47:05,741] 41 root - INFO - Dataframe has columns: 50
+[2025-09-28 12:47:05,741] 40 root - INFO - Required number of columns: 50
+[2025-09-28 12:47:05,741] 41 root - INFO - Dataframe has columns: 50
