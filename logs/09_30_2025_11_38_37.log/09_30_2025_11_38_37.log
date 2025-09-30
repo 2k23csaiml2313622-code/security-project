@@ -1,0 +1,23 @@
+[2025-09-30 11:38:39,086] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-30 11:38:45,129] 18 root - INFO - Initiate data ingestion
+[2025-09-30 11:39:20,368] 54 root - INFO - MongoDB connection closed.
+[2025-09-30 11:39:21,495] 74 root - INFO - performed train test split
+[2025-09-30 11:39:21,495] 75 root - INFO - Exited split data
+[2025-09-30 11:39:21,495] 78 root - INFO - exporting train test file path
+[2025-09-30 11:39:21,495] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-09-30 11:39:21,495] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-09-30 11:39:21,495] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-09-30 11:39:22,681] 89 root - INFO - exported train test files
+[2025-09-30 11:39:22,684] 20 root - INFO - data initiation completed
+[2025-09-30 11:39:22,693] 24 root - INFO - initiating the data validation
+[2025-09-30 11:39:22,993] 40 root - INFO - Required number of columns: 50
+[2025-09-30 11:39:22,993] 41 root - INFO - Dataframe has columns: 50
+[2025-09-30 11:39:22,993] 40 root - INFO - Required number of columns: 50
+[2025-09-30 11:39:22,993] 41 root - INFO - Dataframe has columns: 50
+[2025-09-30 11:39:23,502] 110 root - WARNING - Data drift detected between train and test datasets.
+[2025-09-30 11:39:24,721] 134 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=False, valid_train_file_path='Artifacts\\09_30_2025_11_38_39\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\09_30_2025_11_38_39\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\09_30_2025_11_38_39\\data_validation\\drift_report\\report.yml')
+[2025-09-30 11:39:24,721] 26 root - INFO - data validation completed
+[2025-09-30 11:39:24,721] 28 root - INFO - data validation completed
+[2025-09-30 11:39:24,721] 30 root - INFO - data transformation initiated
+[2025-09-30 11:39:24,721] 45 root - INFO - entered initiate data transformation method
+[2025-09-30 11:39:24,721] 47 root - INFO - starting data transformation

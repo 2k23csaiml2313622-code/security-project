@@ -46,3 +46,37 @@ class DataValidationConfig:
             training_pipeline.DATA_VALIDATION_DRIFT_REPORT_DIR,
             training_pipeline.DATA_VALIDATION_DRIFT_REPORT_FILE_NAME
         )
+
+class DataTransformationConfig:
+    def __init__(self, training_pipeline_config: TrainingPipelineConfig):
+        
+        # Main directory for the data transformation artifacts
+        self.data_transformation_dir: str = os.path.join(
+            training_pipeline_config.artifact_dir, 
+            training_pipeline.DATA_TRANSFORMATION_DIR_NAME
+        )
+        
+        # File path for the transformed training dataset
+        self.transformed_train_file_path: str = os.path.join(
+            self.data_transformation_dir, 
+            training_pipeline.TRAIN_FILE_NAME
+        )
+        
+        # File path for the transformed testing dataset
+        self.transformed_test_file_path: str = os.path.join(
+            self.data_transformation_dir, 
+            training_pipeline.TEST_FILE_NAME
+        )
+        
+        # File path for the serialized preprocessing object (e.g., a scaler or encoder)
+        self.transformed_object_file_path: str = os.path.join(
+            self.data_transformation_dir, 
+            training_pipeline.PREPROCESSING_OBJECT_FILE_NAME
+        )
+
+class ModelTrainerConfig:
+    def __init__(self, training_pipeline_config:TrainingPipelineConfig):
+        self.model_trainer_dir: str= os.path.join(training_pipeline_config.artifact_dir, training_pipeline_config.MODEL_TRAINER_DIR_NAME)
+        self.trained_model_file_path: str= os.path.join(self.model_trainer_dir, training_pipeline.MODEL_TRAINER_TRANED_MODEL_DIR, training_pipeline.MODEL_FILE_PATH)
+        self.expected_accuracy: float= training_pipeline.MODEL_TRAINER_EXPECTED_SCORE
+        self.overfitting_underfitting_threshold= training_pipeline.MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD

@@ -1,0 +1,24 @@
+[2025-09-30 11:49:50,501] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-09-30 11:49:55,969] 18 root - INFO - Initiate data ingestion
+[2025-09-30 11:50:26,398] 54 root - INFO - MongoDB connection closed.
+[2025-09-30 11:50:27,862] 74 root - INFO - performed train test split
+[2025-09-30 11:50:27,870] 75 root - INFO - Exited split data
+[2025-09-30 11:50:27,875] 78 root - INFO - exporting train test file path
+[2025-09-30 11:50:27,877] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-09-30 11:50:27,880] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-09-30 11:50:27,880] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-09-30 11:50:29,014] 89 root - INFO - exported train test files
+[2025-09-30 11:50:29,014] 20 root - INFO - data initiation completed
+[2025-09-30 11:50:29,030] 24 root - INFO - initiating the data validation
+[2025-09-30 11:50:29,325] 40 root - INFO - Required number of columns: 50
+[2025-09-30 11:50:29,325] 41 root - INFO - Dataframe has columns: 50
+[2025-09-30 11:50:29,325] 40 root - INFO - Required number of columns: 50
+[2025-09-30 11:50:29,325] 41 root - INFO - Dataframe has columns: 50
+[2025-09-30 11:50:30,931] 134 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=True, valid_train_file_path='Artifacts\\09_30_2025_11_49_51\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\09_30_2025_11_49_51\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\09_30_2025_11_49_51\\data_validation\\drift_report\\report.yml')
+[2025-09-30 11:50:30,954] 26 root - INFO - data validation completed
+[2025-09-30 11:50:30,954] 28 root - INFO - data validation completed
+[2025-09-30 11:50:30,954] 30 root - INFO - data transformation initiated
+[2025-09-30 11:50:30,954] 45 root - INFO - entered initiate data transformation method
+[2025-09-30 11:50:30,954] 47 root - INFO - starting data transformation
+[2025-09-30 11:50:31,166] 34 root - INFO - entered get transformer object method
+[2025-09-30 11:50:31,166] 37 root - INFO - initialised knn imputer
