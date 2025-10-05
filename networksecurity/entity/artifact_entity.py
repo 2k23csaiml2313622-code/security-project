@@ -1,3 +1,4 @@
+print("--- LOADING LATEST ARTIFACT_ENTITY.PY FILE ---")
 from dataclasses import dataclass
 
 @dataclass
@@ -15,8 +16,8 @@ class DataValidationArtifact:
     drift_report_file_path: str
 
 @dataclass
-class DatTransformationArtifact:
-    transformed_object_file: str
+class DataTransformationArtifact:
+    transformed_object_file_path: str
     transformed_train_file_path: str
     transformed_test_file_path: str
 

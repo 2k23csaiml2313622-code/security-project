@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from networksecurity.constants.training_pipeline import TARGET_COLUMN
 from networksecurity.constants.training_pipeline import DATA_TRANSFORMATION_IMPUTER_PARAMS
 from networksecurity.entity.artifact_entity import(
- DatTransformationArtifact,
+ DataTransformationArtifact,
  DataValidationArtifact
 )
 from networksecurity.entity.config_entity import DataTransformationConfig
@@ -41,7 +41,7 @@ class DataTransformation:
             raise NetworkSecurityException(e,sys)
 
         
-    def initiate_data_transformation(self)->DatTransformationArtifact:
+    def initiate_data_transformation(self)->DataTransformationArtifact:
         logging.info("entered initiate data transformation method")
         try:
             logging.info("starting data transformation")
@@ -70,8 +70,8 @@ class DataTransformation:
             save_object(self.data_transformation_config.transformed_object_file_path, preprocessor_object)
 
             # preparing artifacts
-            data_transformation_artifact=DatTransformationArtifact(
-                transformed_object_file=self.data_transformation_config.transformed_object_file_path,
+            data_transformation_artifact=DataTransformationArtifact(
+                transformed_object_file_path=self.data_transformation_config.transformed_object_file_path,
                 transformed_train_file_path=self.data_transformation_config.transformed_train_file_path,
                 transformed_test_file_path=self.data_transformation_config.transformed_test_file_path
             )

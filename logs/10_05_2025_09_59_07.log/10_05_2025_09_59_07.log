@@ -1,0 +1,29 @@
+[2025-10-05 09:59:09,948] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2025-10-05 09:59:17,432] 20 root - INFO - Initiate data ingestion
+[2025-10-05 09:59:27,267] 54 root - INFO - MongoDB connection closed.
+[2025-10-05 09:59:28,461] 74 root - INFO - performed train test split
+[2025-10-05 09:59:28,461] 75 root - INFO - Exited split data
+[2025-10-05 09:59:28,462] 78 root - INFO - exporting train test file path
+[2025-10-05 09:59:28,462] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-10-05 09:59:28,463] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-10-05 09:59:28,468] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-10-05 09:59:29,537] 89 root - INFO - exported train test files
+[2025-10-05 09:59:29,540] 22 root - INFO - data initiation completed
+[2025-10-05 09:59:29,563] 26 root - INFO - initiating the data validation
+[2025-10-05 09:59:30,127] 41 root - INFO - Required number of columns: 50
+[2025-10-05 09:59:30,128] 42 root - INFO - Dataframe has columns: 50
+[2025-10-05 09:59:30,128] 41 root - INFO - Required number of columns: 50
+[2025-10-05 09:59:30,128] 42 root - INFO - Dataframe has columns: 50
+[2025-10-05 09:59:30,522] 111 root - WARNING - Data drift detected between train and test datasets.
+[2025-10-05 09:59:31,542] 135 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=False, valid_train_file_path='Artifacts\\10_05_2025_09_59_11\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\10_05_2025_09_59_11\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\10_05_2025_09_59_11\\data_validation\\drift_report\\report.yml')
+[2025-10-05 09:59:31,544] 28 root - INFO - data validation completed
+[2025-10-05 09:59:31,544] 30 root - INFO - data validation completed
+[2025-10-05 09:59:31,545] 32 root - INFO - data transformation initiated
+[2025-10-05 09:59:31,545] 45 root - INFO - entered initiate data transformation method
+[2025-10-05 09:59:31,545] 47 root - INFO - starting data transformation
+[2025-10-05 09:59:31,759] 34 root - INFO - entered get transformer object method
+[2025-10-05 09:59:31,759] 37 root - INFO - initialised knn imputer
+[2025-10-05 09:59:31,800] 65 root - INFO - entered the save object method
+[2025-10-05 09:59:31,811] 69 root - INFO - exited save object
+[2025-10-05 09:59:31,817] 36 root - INFO - data transformation completed
+[2025-10-05 09:59:31,817] 37 root - INFO - model training started
