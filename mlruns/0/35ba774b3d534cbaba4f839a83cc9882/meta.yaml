@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/NetworkSecurity/mlruns/0/35ba774b3d534cbaba4f839a83cc9882/artifacts
+end_time: 1759645481901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 35ba774b3d534cbaba4f839a83cc9882
+run_name: carefree-koi-253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759645470074
+status: 3
+tags: []
+user_id: '91798'

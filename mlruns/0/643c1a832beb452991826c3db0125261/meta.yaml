@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/NetworkSecurity/mlruns/0/643c1a832beb452991826c3db0125261/artifacts
+end_time: 1759645470030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 643c1a832beb452991826c3db0125261
+run_name: smiling-grouse-160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759645443350
+status: 3
+tags: []
+user_id: '91798'
