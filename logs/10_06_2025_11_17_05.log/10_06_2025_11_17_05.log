@@ -1,0 +1,38 @@
+[2025-10-06 11:19:12,945] 33 root - INFO - start data ingestion
+[2025-10-06 11:19:48,646] 33 root - INFO - start data ingestion
+[2025-10-06 11:22:03,801] 54 root - INFO - MongoDB connection closed.
+[2025-10-06 11:22:05,203] 74 root - INFO - performed train test split
+[2025-10-06 11:22:05,203] 75 root - INFO - Exited split data
+[2025-10-06 11:22:05,203] 78 root - INFO - exporting train test file path
+[2025-10-06 11:22:05,203] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-10-06 11:22:05,203] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-10-06 11:22:05,203] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-10-06 11:22:06,653] 89 root - INFO - exported train test files
+[2025-10-06 11:22:06,653] 36 root - INFO - data ingestion completed:{data_ingestion_artifact}
+[2025-10-06 11:22:06,684] 45 root - INFO - initiated data validation
+[2025-10-06 11:22:06,919] 41 root - INFO - Required number of columns: 50
+[2025-10-06 11:22:06,919] 42 root - INFO - Dataframe has columns: 50
+[2025-10-06 11:22:06,919] 41 root - INFO - Required number of columns: 50
+[2025-10-06 11:22:06,919] 42 root - INFO - Dataframe has columns: 50
+[2025-10-06 11:22:08,636] 135 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=True, valid_train_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\drift_report\\report.yml')
+[2025-10-06 11:22:08,636] 45 root - INFO - entered initiate data transformation method
+[2025-10-06 11:22:08,636] 47 root - INFO - starting data transformation
+[2025-10-06 11:22:08,675] 33 root - INFO - start data ingestion
+[2025-10-06 11:23:06,761] 54 root - INFO - MongoDB connection closed.
+[2025-10-06 11:23:08,361] 74 root - INFO - performed train test split
+[2025-10-06 11:23:08,361] 75 root - INFO - Exited split data
+[2025-10-06 11:23:08,361] 78 root - INFO - exporting train test file path
+[2025-10-06 11:23:08,361] 80 root - INFO - Performed train test split on dataframe with shape: (20000, 50)
+[2025-10-06 11:23:08,361] 81 root - INFO - Train set has shape: (16000, 50)
+[2025-10-06 11:23:08,361] 82 root - INFO - Test set has shape: (4000, 50)
+[2025-10-06 11:23:09,826] 89 root - INFO - exported train test files
+[2025-10-06 11:23:09,826] 36 root - INFO - data ingestion completed:{data_ingestion_artifact}
+[2025-10-06 11:23:09,866] 45 root - INFO - initiated data validation
+[2025-10-06 11:23:10,244] 41 root - INFO - Required number of columns: 50
+[2025-10-06 11:23:10,244] 42 root - INFO - Dataframe has columns: 50
+[2025-10-06 11:23:10,244] 41 root - INFO - Required number of columns: 50
+[2025-10-06 11:23:10,244] 42 root - INFO - Dataframe has columns: 50
+[2025-10-06 11:23:10,809] 111 root - WARNING - Data drift detected between train and test datasets.
+[2025-10-06 11:23:12,440] 135 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=False, valid_train_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\10_06_2025_11_17_09\\data_validation\\drift_report\\report.yml')
+[2025-10-06 11:23:12,440] 45 root - INFO - entered initiate data transformation method
+[2025-10-06 11:23:12,440] 47 root - INFO - starting data transformation

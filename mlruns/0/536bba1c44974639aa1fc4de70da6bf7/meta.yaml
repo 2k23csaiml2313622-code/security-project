@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/NetworkSecurity/mlruns/0/536bba1c44974639aa1fc4de70da6bf7/artifacts
+end_time: 1759646096195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 536bba1c44974639aa1fc4de70da6bf7
+run_name: resilient-smelt-660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759646064451
+status: 3
+tags: []
+user_id: '91798'

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/NetworkSecurity/mlruns/0/3e90d4c42a1b4198a19ccb9a6eb96df1/artifacts
+end_time: 1759646107881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e90d4c42a1b4198a19ccb9a6eb96df1
+run_name: magnificent-wasp-619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759646096260
+status: 3
+tags: []
+user_id: '91798'
