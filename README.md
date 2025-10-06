@@ -18,7 +18,7 @@ Framework-	FastAPI	High-performance API development and routing.
 Server-	Uvicorn	Asynchronous Server Gateway Interface (ASGI) server to run FastAPI.
 Database-	MongoDB	NoSQL database for flexible data storage.
 Programming-	Python 3.x	Core development language.
-Machine Learning-	Scikit-learn/TensorFlow (Specify your library)	Model training and prediction logic.
+Machine Learning-	Scikit-learn/TensorFlow Model training and prediction logic.
 Dataset-	Kaggle Phishing Dataset,	data source for training the model.
 
 Export to Sheets
@@ -35,8 +35,8 @@ A running MongoDB instance (local or hosted).
 2. Clone the Repository
 Bash
 
-git clone <YOUR_REPO_URL>
-cd <YOUR_PROJECT_FOLDER>
+git clone <REPO_URL>
+cd <PROJECT_FOLDER>
 3. Set Up Virtual Environment
 It is highly recommended to use a virtual environment.
 
